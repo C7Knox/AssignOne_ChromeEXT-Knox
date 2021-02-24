@@ -1,6 +1,6 @@
 /* CSS HERE */
 document, body, img {
-    filter: saturate(700%);
+    filter: saturate(550%);
 }
 /* Try: updating the background to a gradient */
 
