@@ -3,16 +3,14 @@ console.log("Extension is running! :)");
 
 
 
-//was trying to go through jQuery to access all the images before I realized I could just use CSS
-//var $images = [];
-//var elements = document.body.getElementsByTagName("*");
-//Array.prototype.forEach.call( elements, function (el) {
-//    var style = window.getComputedStyle(el, false);
-//    if ( style.baclgroundImage != "none" ) {
-//        $images.push(style.backgroundImage.slice(4, -1).replace(/['"]/g, ""))
-//    }
-//})
-//$images.addClass("bright");
+//was trying to create a range slider to let users change teh saturation%, but I could not figure out how to add in the container through javascript without an index.html file
+//var $div=document.createElement("div"); 
+//document.body.appendChild($div); 
+//$div.addClass("slidecontainer");
+//$div.innerText("<input type="range" min="1" max="100" value="50" class="slider" id="myRange">");
+
+
+
 
 //Credit\\
-//Code inspired and borrowed from https://stackoverflow.com/questions/52444784/detect-all-images-with-javascript-in-an-html-page/52721409
+//https://stackoverflow.com/questions/19103183/how-to-insert-html-with-a-chrome-extension
