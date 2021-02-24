@@ -1,5 +1,19 @@
 /* CSS HERE */
-document, body, img {
+body, img {
     filter: saturate(550%);
 }
 
+body {
+  padding: 20px;
+}
+button {
+  margin-top: 20px;
+  line-height: 60px;
+  font-weight: bold;
+  padding: 0 40px;
+  background: Blue;
+  border: none;
+}
+button:hover {
+  background: lightBlue;
+}
